@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import InlineAndInlineBlock from "./stylesExample/InlineAndInlineBlock";
 
 const App = () => {
-  return <div className="container" />;
+  return (
+    <>
+      <InlineAndInlineBlock />
+    </>
+  );
 };
 
 export default App;
